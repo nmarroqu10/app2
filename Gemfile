@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'nested_scaffold'
+gem 'mini_racer'
 
 group :production do
   gem 'pg', '~> 0.21' # for Heroku deployment
@@ -48,6 +49,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'rspec-rails', '~> 3.7'
 end
 
 group :development do
